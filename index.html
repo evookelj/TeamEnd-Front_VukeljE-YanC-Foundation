@@ -2,7 +2,15 @@
 <html>
   <head>
     <title> hi </title>
+    <link rel="stylesheet" type="text/css" href="foundation.min.css">
     <link rel="stylesheet" type="text/css" href="foundation.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <script src = "jquery.js" type = "text/javascript"></script>
+    <script src = "foundation.js" type = "text/javascript"></script>
+    <script src = "foundation.min.js" type = "text/javascript"></script>
+    <script src = "app.js" type = "text/javascript"></script>
+    <script src = "what-input.js" type = "text/javascript"></script>
+
   </head>
 
   <body>
@@ -12,12 +20,6 @@
 	  <li class="menu-text">Site Title</li>
 	  <li>
             <a href="#">One</a>
-            <ul class="menu vertical">
-              <li><a href="#">One</a></li>
-              <li><a href="#">Two</a></li>
-              <li><a href="#">Three</a></li>
-            </ul>
-	  </li>
 	  <li><a href="#">Two</a></li>
 	  <li><a href="#">Three</a></li>
 	</ul>
@@ -29,4 +31,65 @@
 	</ul>
       </div>
     </div>
+
+
+
+    <div class="flex-video">
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/V9gkYw35Vws" allowfullscreen style="border:0"></iframe>
+    </div>
+
+    <img class="thumbnail" src="http://orig01.deviantart.net/5395/f/2012/104/e/c/shiba_inu_study_by_artbearny-d4w5n2u.jpg" alt="Photo of Uranus.">
+
+    <form>
+      <div class="row">
+	<div class="medium-6 columns">
+	  <label>Input Label
+            <input type="text" placeholder=".medium-6.columns">
+	  </label>
+	</div>
+	<div class="medium-6 columns">
+	  <label>Input Label
+            <input type="text" placeholder=".medium-6.columns">
+	  </label>
+	</div>
+	<div class="medium-6 columns">
+	  <label>
+	    How many puppies?
+	    <input type="number" value="100">
+	  </label>
+	</div>
+      </div>
+    </form>
+
+    <!-- tell us traits abt ur doggo" -->
+    <label>
+      What books did you read over summer break?
+      <textarea placeholder="None"></textarea>
+    </label>
+
+
+    <form>
+      <div class="row">
+	<div class="small-3 columns">
+	  <label for="middle-label" class="text-right middle">Label</label>
+	</div>
+	<div class="small-9 columns">
+	  <input type="text" id="middle-label" placeholder="Right- and middle-aligned text input">
+	</div>
+      </div>
+    </form>
+
+
+    <label for="exampleFileUpload" class="button">Upload File</label>
+    <input type="file" id="exampleFileUpload" class="show-for-sr">
+
+
+    <!-- Anchors (links) -->
+    <a href="about.html" class="button">Learn More</a>
+    <a href="#features" class="button">View All Features</a>
+
+    <!-- Buttons (actions) -->
+    <button type="button" class="success button">Save</button>
+    <button type="button" class="alert button">Delete</button>
+  </body>
 </html>
